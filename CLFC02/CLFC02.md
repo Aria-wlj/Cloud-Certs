@@ -136,9 +136,9 @@ is a **serverless**, interactive **analytics service** built on open-source fram
 
 ##### Amazon ElastiCache
 
-A service that provides the capability to create, manage, and scale a distributed in-memory or cache environment in the cloud 
+A service that provides the capability to create, manage, and scale a **distributed in-memory or cache** environment in the cloud 
 
- is an AWS in-memory data store service
+ is an AWS **in-memory data store** service
 
 **improve database performance** by reducing the amount of read I/O on the database. 
 
@@ -491,7 +491,7 @@ if a single component fails, the other components continue to work.
 
 can **integrate and decouple** distributed applications; **distribute** application-to-person **notifications** to your customers with SMS / email / push notifications
 
- a publish/subscribe service, subscribers can be web servers, email addresses, AWS Lambda functions, or several other options
+ a publish/subscribe service, subscribers can be web servers, email addresses, AWS Lambda functions, or several other optionscloud
 
 #### **Amazon Simple Queue Service (Amazon SQS)**
 
@@ -820,7 +820,7 @@ In **object storage**, each object consists of data, metadata, and a key.
   - has a lower storage price and higher retrieval price
 - **S3 One Zone-Infrequent Access**
   - Stores data in a single Availability Zone
-  - intended for use cases with infrequently accessed data that is re-creatable
+  - intended for use cases with infrequently accessed data that is **re-creatable**
 - **S3 Intelligent-Tiering**
   - Ideal for data with unknown or changing access patterns
   - Requires a small monthly monitoring and automation fee per object
@@ -834,7 +834,7 @@ In **object storage**, each object consists of data, metadata, and a key.
   - retrieve objects **from 1 minute to 12 hours**
 - **S3 Glacier Deep Archive**
   - **Lowest-cost storage** class ideal for archiving
-  - retrieve objects within **12 hours**, data retrieval from 12 to 48 hours
+  - retrieve objects within **12 hours**, data retrieval from **12 to 48 hours**
   - stored across at least three geographically dispersed Availability Zones
 - **S3 Outposts**
   - Creates **S3 buckets** on Amazon S3 Outposts
@@ -868,6 +868,7 @@ a scalable file system used with AWS Cloud services and on-premises resources.
 a **regional service**. It stores data in and **across multiple Availability Zones**. 
 
 - on-premises servers can access Amazon EFS using AWS Direct Connect.
+- allows for file sharing between multiple Amazon EC2 instances
 
 
 
@@ -981,13 +982,15 @@ store in a cluster volume, across 3 availability zones
 
 ##### !!!
 
-It's customers' responsibility to 
+It's **customers**' responsibility to 
 
 - patch EC2 instances
 - to updating the **guest OS** on EC2 instances
 - Apply encryption options for the database (when using Amazon RDS
+- managing their **data**
+- using IAM tools
 
-AWS responsibility: 
+**AWS** responsibility: 
 
 - Installing the database engine when a workload is running in Amazon RDS; 
 - Installing OS on EC2 instanc
@@ -1021,6 +1024,10 @@ has complete access to all the AWS services and resources in the account
 - Only AWS account owner can 
   - create and manage **access keys** for the AWS account. 
 
+
+##### Access key
+
+not use the root user access keys for everyday access to AWS services and to instead create IAM users with only the necessary permissions.  Avoid sharing the root user access keys. The best practice is to delete the keys and create IAM users with appropriate permissions.
 
 #### **IAM users**
 
@@ -1239,6 +1246,8 @@ automatically detect unusual API activities in your AWS account.
 
 a web service that **inspects** your AWS environment and **provides real-time recommendations** in accordance with AWS best practices
 
+can have alerts
+
 in five categories: **cost optimization, performance, security (like Amazon S3 buckets), fault tolerance, and service limits**
 
 For each category: Green check - no problems; Orange triangle - investigations; Red circle - recommended actions. 
@@ -1315,7 +1324,9 @@ includes a default report of the costs and usage for your top five cost-accruing
 
 #### AWS Cost and Usage Reports
 
-contains the most comprehensive set of cost and usage data available. You can use Cost and Usage Reports to publish your AWS billing reports. These reports **can be customized to break down costs** by various dimensions such as product, tags, and time intervals (hour, day, month, etc.).
+contains the most comprehensive set of cost and usage data available. You can use Cost and Usage Reports to publish your AWS billing reports. These reports **can be customized to break down costs** by various dimensions such as **product, tags, and time intervals** (hour, day, month, etc.).
+
+The report can be **placed in an Amazon S3 bucket**
 
 #### AWS cost allocation tags
 
@@ -1459,7 +1470,7 @@ helps you understand how to design and operate reliable, secure, efficient, and 
     - Learn from all operational failures
 
 - **Security**: 
-- **Reliability**:
+- **Reliability**: the ability of a workload to **perform its intended function** **correctly and consistently** when it’s expected to
 
   - Automatically recover from failure
   - Test recovery procedures
