@@ -14,37 +14,31 @@ a web service that helps you reliably process and **move data** between differen
 
 ##### AWS Service Catalog
 
+Create, share, organize, and govern your curated **IaC** templates and **manage deployed IT services** 
+
 allows organizations to create and manage **catalogs of IT services** that are approved for use on AWS.
 
 manage **deployed IT services** and govern its infrastructure as code (IaC) templates
 
 ##### AWS  PrivateLink
 
-provides direct secure connections **from VPCs to other AWS services.**
-
-##### Amazon Macie
-
-A **data security service** that **uses machine learning** (ML) and pattern matching to discover and help protect your sensitive data.
-
-##### AWS IAM Access Analyzer
-
-helps you identify the resources in your organization and accounts, such as Amazon S3 buckets or IAM roles, shared with an **external entity**. It automatically **reviews policies** and **provides actionable recommendations** for securing access to AWS resources.
-
-To **identify unintended access** to your resources and data, which is a security risk.. 
+provides direct secure connections **from VPCs to other AWS services**.
 
 ##### AWS Transit Gateway
 
 [AWS Transit Gateway]: https://aws.amazon.com/transit-gateway/
 
-Connect VPCs and on-promises networks **through a central hub**. **centrally**
+**Connect VPCs and on-promises networks** **through a central hub**. **centrally**
 
 ##### QuickSight
 
 supports the creation of **visual reports** from AWS Cost and Usage Report data
 
+It can connect to various data sources, including AWS Glue, to visualize and analyze the transformed data
+
 ##### AWS Infrastructure Event Management (IEM)
 
- offers architecture and scaling guidance and operational support during the preparation and execution of planned events
+ offers architecture and scaling guidance and Professional Services operational support during the preparation and execution of planned events
 
 ##### Amazon S3 Lifecycle rules
 
@@ -166,6 +160,8 @@ a **managed source control system** that hosts Git repositories and works with a
 
 AWS CodePipeline is a **fully managed continuous delivery service** that continuous delivery (CI/CD) service that **automates the build, test, and deployment phases** of your release process
 
+- **continually deploy** updated code through a series of **automated steps** (build, test, package, and deploy)
+
 ##### Amazon Codeguru
 
 Amazon CodeGuru Profiler helps developers find an application’s **most expensive lines** of code
@@ -182,14 +178,6 @@ provides a persistent, cloud-based desktop experience for end users, and it allo
 
 AWS Batch lets developers, scientists, and engineers efficiently **run hundreds of thousands of batch and ML computing jobs** while optimizing compute resources, so you can focus on analyzing results and solving problems. 
 
-##### AWS Certificate Manager (ACM) 
-
-provision, manage, and deploy public and private **SSL/TLS** to encrypt traffic for AWS services and your internal connected resources. ACM removes the time-consuming manual process of purchasing, uploading, and renewing SSL/TLS certificates.
-
-##### Amazon Kinesis Data Analytics
-
-Interactively **query and analyze data** in real time and continuously produce insights for time-sensitive use cases. 
-
 ##### AWS Abuse team
 
 If a company discovers unauthorized access or abuse originating from a resource hosted on AWS, they should contact the AWS Abuse team. The Abuse team handles reports of inappropriate behavior, security incidents, and other potential violations of AWS Acceptable Use Policy (AUP). They will investigate the issue and take appropriate actions to address the situation.
@@ -204,7 +192,7 @@ providing information about **changes to your AWS environment**
 
 ##### AWS Step Functions
 
-build and coordinate applications using visual workflows. is a low-code, visual workflow service that developers can use to build distributed applications.
+build and coordinate applications using visual **workflows**. is a low-code, visual workflow service that developers can use to build distributed applications.
 
 ##### AWS Connect 
 
@@ -214,13 +202,79 @@ https://docs.aws.amazon.com/connect/latest/adminguide/what-is-amazon-connect.htm
 
 https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html
 
+##### AWS Compute Optimizer
+
+Rightsize workloads according
+
+##### AWS Professional Services 
+
+offerings use a unique methodology based on Amazon’s internal best practices to help you complete projects faster and more reliably,
+##### AWS IAM Access Analyzer
+
+helps you **identify** the resources in your organization and accounts, such as Amazon S3 buckets or IAM roles, shared with an **external entity**. It automatically **reviews policies** and **provides actionable recommendations** for securing access to AWS resources.
+
+To **identify unintended access** to your resources and data, which is a security risk.. 
+
+##### AWS Security Token Service (AWS STS)
+
+a way to grant **temporary**, limited-privilege credentials to users, applications, or services.
+
+##### AWS Security Hub
+
+ is a cloud security posture management (CSPM) service that aggregates alerts from various AWS services and partner products in a standardized format
+
+##### Amazon Macie
+
+A **data security service** that **uses machine learning** (ML) and pattern matching to discover and help **protect your sensitive data**.
+
+##### AWS CloudShell
+
+Explore and manage AWS resources from a terminal in your browser
+
+##### Amazon Kinesis
+
+Collect, process, and analyze real-time, **streaming data** so you can get timely insights and react quickly to new information.
+
+##### Amazon Kinesis Data Analytics
+
+Interactively **query and analyze data** in real time and continuously produce insights for time-sensitive use cases. 
+
+
+
+##### AWS Certificate Manager (ACM) 
+
+provision, manage, and deploy public and private **SSL/TLS** to encrypt traffic for AWS services and your internal connected resources. ACM removes the time-consuming manual process of purchasing, uploading, and renewing SSL/TLS certificates.
+
 ##### AWS Personal Health Dashboard 
 
-AWS Personal Health Dashboard 
+provides alerts when an AWS event may impact a company's AWS resources
 
-##### Amazon Connection
+##### Amazon Connection / Amazon Connect
 
-a cloud-based contact center service, you can set up a contact center in minutes that can scale to support millions of customers. can be used to provide an on-demand, cloud-based contact center
+a cloud-based pay-as-you-go **contact center service**, you can set up a contact center in minutes that can scale to support millions of customers. can be used to provide an on-demand, cloud-based contact center
+
+#####  Amazon FSx for Windows File Server 
+
+Provide highly available, high performance storage to your Windows applications with full **SMB (Server Message Block) support**.
+
+##### Amazon Personalize
+
+provide product recommendations based on its customer data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -266,15 +320,18 @@ https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.htm
 
 Amazon Lightsail; AWS Batch; 
 
-#####  Amazon FSx for Windows File Server 
-
-Provide highly available, high performance storage to your Windows applications with full **SMB (Server Message Block) support**.
-
 ##### encryption
 
-\##opt-in encryption## EBS Redshift RDS S3 Buckets EFS drives
+- opt-in encryption
+  - EBS Redshift 
+  - RDS 
+  - S3 Buckets 
+  - EFS drives
 
-##Automatic Encryption## Cloudtrail logs S3 Glecier Storage Gateways
+- Automatic Encryption
+  - Cloudtrail logs
+  - S3 Glecier 
+  - Storage Gateways
 
 
 
@@ -292,19 +349,19 @@ Provide highly available, high performance storage to your Windows applications 
 
 # Difference
 
-##### AWS Infrastructure Event Management (IEM) v.s. The designated AWS technical account manager (TAM)
+- AWS Infrastructure Event Management (IEM) v.s. The designated AWS technical account manager (TAM)
 
-##### CloudWatch v.s. CloudTrail
+- CloudWatch v.s. CloudTrail
 
-##### AWS Local Zones v.s. AWS Outposts
+- AWS Local Zones v.s. AWS Outposts
 
-##### AWS Local Zones v.s. AWS Availability Zones
+- AWS Local Zones v.s. AWS Availability Zones
 
-##### AWS Direct Connect v.s. AWS PrivateLink
+- AWS Direct Connect v.s. AWS PrivateLink
 
-##### IAM users v.s. IAM roles
+- IAM users v.s. IAM roles
 
-##### IAM vs. AWS Organizations
+- IAM vs. AWS Organizations
 
 ##### Network ACL v.s. Security Group
 
@@ -318,9 +375,9 @@ Provide highly available, high performance storage to your Windows applications 
 
 ##### Amazon WorkSpaces vs. Amazon AppStream 2.0
 
+##### Amazon Kinesis vs. Amazon Athena
 
-
-
+- internet gateway vs. virtual private gateway 
 
 
 
@@ -352,9 +409,9 @@ Provide highly available, high performance storage to your Windows applications 
 
 ![image-20231209220034194](CLFC02.assets/image-20231209220034194.png)
 
+![image-20231218161837819](CLFC02.assets/image-20231218161837819.png)
 
-
-
+![image-20231219152723708](CLFC02.assets/image-20231219152723708.png)
 
 
 
@@ -594,9 +651,10 @@ A Region consists of three or more Availability Zones.
 
 #### Amazon CloudFront
 
-A **content delivery network (CDN) service** built for high performance, security, and developer convenience. **Uses edge locations**. 
+A **content delivery network (CDN) service** built for high performance, security, and developer convenience. **Uses edge locations**.  Is cost effective.
 
-Securely **deliver** content with low latency and high transfer speeds
+- Securely **deliver** content with **low latency** and high transfer speeds
+- enables companies to deploy an application close to end users
 
 
 
@@ -650,6 +708,10 @@ To build an environment by writing lines of code instead of using the AWS Manage
 It provisions your resources in a safe, repeatable manner, enabling you to frequently build your infrastructure and applications
 
 allows you to create and **manage a collection of related AWS resources** **using templates**, to reliably provision, manage, and update its infrastructure in the AWS Cloud
+
+#### AWS Cloud Development Kit (AWS CDK)
+
+is a software development framework that a company can use to define cloud resources as code and provision the resources through AWS CloudFormation
 
 #### AWS Outposts
 
@@ -797,6 +859,10 @@ offers virtually **unlimited storage**.
 
 can be used to **host static websites** to deliver HTML, JavaScript, images, and video for sites that do not contain server-side scripting.
 
+#### S3 bucket
+
+All Amazon S3 buckets have encryption configured by default, and all new objects that are uploaded to an S3 bucket are automatically encrypted at rest.
+
 #### Tag the objects in the S3 bucket
 
 - Object tags enable **fine-grained access control of permissions**. 
@@ -853,11 +919,17 @@ In the S3 Intelligent-Tiering storage class, Amazon S3 moves objects between a f
 
 If an object has not accessed an object for 30 consecutive days, Amazon S3 automatically moves it to the infrequent access tier, S3 Standard-IA. If an object is accessed in the infrequent access tier, Amazon S3 automatically moves it to the frequent access tier, S3 Standard.
 
+#### Access Analyzer for S3
+
+IAM Access Analyzer for S3 provides findings for buckets that can be accessed outside your AWS account. (e.g. user can review all Amazon S3 buckets with ACLs and S3 bucket policies in the S3 console)
+
 
 
 #### AWS Storage Gateway
 
 AWS Storage Gateway is a set of hybrid cloud storage services that **provide on-premises access to virtually unlimited cloud storage** 
+
+by caching frequently accessed data locally for **low-latency access** while **asynchronously backing up** data to Amazon S3 or Amazon Glacier for durable, off-site storage
 
 
 
@@ -904,7 +976,8 @@ available on six database engines, supported database engines include:
 a key-value database **service** (**Nonrelational databases**, can add or remove attributes from items in the table at any time)
 
 - is **serverless** (do not have to provision, patch, or manage servers; also do not have to install, maintain, or operate software)
-- has automatic scaling (a suitable choice for use cases that **require high performance while scaling**)
+- has **automatic scaling** (a suitable choice for use cases that **require high performance while scaling**)
+- delivers **single-digit millisecond** performance at any scale. 
 
 ##### Amazon DynamoDB global tables 
 
@@ -917,6 +990,10 @@ provide a fully managed, multi-region, and multi-master database replication sol
  **a data warehousing service **that you can use for big data analytics, offers the ability to collect data from many sources and helps you to understand relationships and trends across your data.
 
 uses SQL to **analyze structured and semi-structured data** across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale.
+
+##### Amazon Redshift Serverless
+
+ operate a data warehouse to analyze data without managing the data warehouse infrastructure
 
 
 
@@ -968,6 +1045,8 @@ store in a cluster volume, across 3 availability zones
 
 ### AWS Shared Responsibility Model
 
+https://aws.amazon.com/compliance/shared-responsibility-model/
+
 ![sharedResponsibilityModel](CLFC02.assets/sharedResponsibilityModel.png)
 
 **Customers** are responsible for the security of everything that they create and put *in* the AWS Cloud.
@@ -976,7 +1055,7 @@ store in a cluster volume, across 3 availability zones
 
 ##### Shared controls: 
 
-- **Patch Management** - in the infrastructure; in guest OS and applications (including EC2 instances)
+- **Patch Management** - AWS: in the infrastructure; Customer: in guest OS & applications (including EC2 instances)
 - **Configuration Management** - infrastructure devices; guest OS, database, applications
 - **Awareness & Training** - each one's employee
 
@@ -984,16 +1063,19 @@ store in a cluster volume, across 3 availability zones
 
 It's **customers**' responsibility to 
 
-- patch EC2 instances
+- patch EC2 instances, Amazon EC2 operating system patching
 - to updating the **guest OS** on EC2 instances
 - Apply encryption options for the database (when using Amazon RDS
 - managing their **data**
 - using IAM tools
+-  managing access to their resources, including controlling who has access to their Amazon DynamoDB tables
+- Maintain high availability at the database layer.
 
 **AWS** responsibility: 
 
 - Installing the database engine when a workload is running in Amazon RDS; 
 - Installing OS on EC2 instanc
+- Patching DynamoDB, and encrypting non-active data in DynamoDB
 
 
 
@@ -1010,6 +1092,8 @@ Always **no charge**.
 #### IAM credential report
 
 provides details about the IAM users in an AWS account, including their **access keys, passwords, MFA devices**, and various other security-related information. 
+
+audit its password and access key rotation details for compliance purposes
 
 However, the report does ***not*** include information such as the type of MFA device assigned to an IAM user, the User-Agent browser identifier for each logged-in IAM user, or the number of incorrect login attempts.
 
@@ -1028,6 +1112,8 @@ has complete access to all the AWS services and resources in the account
 ##### Access key
 
 not use the root user access keys for everyday access to AWS services and to instead create IAM users with only the necessary permissions.  Avoid sharing the root user access keys. The best practice is to delete the keys and create IAM users with appropriate permissions.
+
+- programmatic **access** to AWS resources through the AWS **CLI** or the AWS API
 
 #### **IAM users**
 
@@ -1099,6 +1185,8 @@ Implement secure, frictionless customer **identity and access management** that 
 helps you implement customer **identity and access management (CIAM)** into your **web and mobile applications**. You can quickly **set up / add user authentication** and **access control** to your applications in minutes.
 
 **lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily.**
+
+enables you to authenticate users through an external identity provider and provides temporary security credentials to access your app’s backend resources in AWS or any service behind Amazon API Gateway.
 
 
 
@@ -1180,7 +1268,11 @@ a service that provides **intelligent threat detection** for your AWS infrastruc
 
 It identifies threats by continuously **monitoring** the network activity and account behavior within your AWS environment.
 
+#### AWS Secrets Manager
 
+Securely encrypt and centrally audit secrets
+
+Rotate secrets automatically (e.g. establish a schedule for rotating database user credentials)
 
 
 
@@ -1194,11 +1286,11 @@ It identifies threats by continuously **monitoring** the network activity and ac
 
 ### Amazon CloudWatch
 
-Observe and monitor resources and applications on AWS, on premises, and on other clouds.
+Observe and monitor resources and applications on AWS, on premises, and on other clouds. 
 
 Includes performance changes, **resource use**, operational health. 
 
-enables you to monitor and manage various **metrics** and **configure alarm** actions based on data from those metrics
+enables you to monitor and manage various **metrics** and **configure alarm** actions based on data from those metrics (including cost)
 
 #### metrics
 
@@ -1216,7 +1308,7 @@ access all the metrics for your resources from a single location
 
 #### Amazon CloudWatch Logs Insights
 
-interactively search and analyze your log data in Amazon CloudWatch Logs. You can perform queries to help you more efficiently and effectively respond to operational issues.
+**interactively search and analyze** your log data in Amazon CloudWatch Logs. You can perform **queries** to help you more efficiently and effectively respond to operational issues.
 
 #### CloudWatch Logs Stream
 
@@ -1228,9 +1320,9 @@ Real-time process, monitor, alert & notification.
 
 **Track user activity** and **API usage**, records **API calls** for your account, includes the identity of the API caller, the time of the API call, the source IP address of the API caller, and more, like a log of actions. 
 
-can determine whether a change was made to the security groups of an EC2 instance in the last month
-
-providing information about **changes to your AWS environment**
+- can determine whether a change was made to the security groups of an EC2 instance in the last month
+- providing information about **changes to your AWS environment**
+- so that you can identify when an Amazon EC2 instance was terminated
 
 ##### CloudTrail logs
 
@@ -1318,9 +1410,9 @@ set up a **custom spending threshold** and set custom **alerts** when your usage
 
 is a tool that lets you **visualize**, understanlid, and manage your AWS costs and usage over time.
 
-includes a default report of the costs and usage for your top five cost-accruing AWS services
-
-**forecast future costs** and usage based on past consumption. 
+- includes a default report of the costs and usage for your top five cost-accruing AWS services
+- **forecast future costs** and usage based on past consumption. 
+- has rightsizing recommendations feature to identify cost-saving opportunities by downsizing or terminating instances in Amazon Elastic Compute Cloud (Amazon EC2).
 
 #### AWS Cost and Usage Reports
 
@@ -1335,6 +1427,18 @@ You can use tags to organize your resources, and cost allocation tags to **track
 #### AWS Cost Anomaly Detection
 
 an AWS cost management feature that **uses machine learning** to **continually monitor** your cost and usage **to detect unusual spends**.
+
+#### AWS Billing Conductor
+
+Simplify billing and reporting with customizable pricing and cost visibility
+
+
+
+### Cost
+
+Data transfer IN to Amazon S3 is $0.00 per GB (free).
+
+
 
 
 
@@ -1365,12 +1469,15 @@ The followings include all the benefits of Basic Support:
 - Operations Reviews and tools to monitor health
 - Training and Game Days to drive innovation
 - Tools to monitor costs and performance through Trusted Advisor and Health API/Dashboard
+- AWS Enterprise Support offers guidance and support for operational **readiness** assessments and **risk mitigation** at no additional charge.
 
 also provides full access to proactive services
 
 #### **Technical Account Manager (TAM)**
 
-primary point of contact at AWS. TAM educates, empowers, and evolves your cloud journey across the full range of AWS **services**. 
+primary point of contact at AWS. TAM educates, empowers, and evolves your cloud journey across the full rclange of AWS **services**. 
+
+• Cost optimization - Trusted Advisor can help you save cost with actionable recommendations by analyzing usage, configuration and spend. • Performance - Trusted Advisor can help improve the performance of your services with actionable recommendations by analyzing usage and configuration. • Security - Trusted Advisor can help improve the security of your AWS environment by suggesting foundational security best practices curated by security experts. • Fault tolerance - Trusted Advisor can help improve the reliability of your services. • Service quotas - Service quotas are the maximum number of resources that you can create in an AWS account.
 
 ![image-20231117190422495](CLFC02.assets/image-20231117190422495.png)
 
@@ -1382,7 +1489,7 @@ a digital catalog that includes thousands of software listings from independent 
 
 has several categories, such as Infrastructure Software, DevOps, Data Products, Professional Services, Business Applications, Machine Learning, Industries, and Internet of Things (IoT).
 
-A
+
 
 
 
@@ -1481,6 +1588,12 @@ helps you understand how to design and operate reliable, secure, efficient, and 
 - **Performance efficiency**: use **computing resources** efficiently, using computing resources in ways that meet system requirements
 - **Cost optimization**: adopting a consumption model, analyzing and attributing expenditure, and using managed services
 - **Sustainability**: by reducing energy consumption and increasing efficiency
+
+#### cloud transformation journey
+
+
+
+
 
 ### **Advantages of cloud computing**
 
